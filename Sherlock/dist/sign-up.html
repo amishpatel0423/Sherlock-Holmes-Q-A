@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Arvo|Monotype" rel="stylesheet">
+
+    <title>Sign-Up Pages</title>
+</head>
+<body>
+    <div class="container-2">
+        <div class="text-2">
+    <h1 class="sign-up"><img src="sherlock-holmes.png" class="sherlock" alt="" srcset=""> Sign-up</h1>
+    <h2>Lets get you started, fill out a few deatils before our community of sherlocks start finding your answers</h2>
+        </div>
+        <form  method="post" id="SignUp">
+          
+            <p>
+                <label id="s">Screenname</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
+        	<input type="text" id="screenname" class="input_style" placeholder="Eg akg414"/>
+		&nbsp;&nbsp;&nbsp;<label id="scrn_msg" class="err_msg"></label>
+	     </p>
+	     <p>
+                <label id="e">Email</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="email" id="email" class="input_style" placeholder="Eg akg414@uregina.ca"/>
+	        <label id="email_msg" class="err_msg"></label>
+	     </p>
+	     <p>
+                <label id="d">Date of Birth</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="date" id="dob" class="input_style"/>
+		&nbsp;&nbsp;&nbsp;<label id="dob_msg" class="err_msg"></label>
+	     </p>
+	     <p>
+                <label id="a">Avatar</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="file" id="avatar" />
+	 	&nbsp;&nbsp;&nbsp;<label id="avatar_msg" class="err_msg"></label>
+	     </p>
+	     <p>
+		<label id="p">Password</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="password" id="password" class="input_style"/>
+		&nbsp;&nbsp;&nbsp;<label id="pswd_msg" class="err_msg"></label>
+	     </p>
+	     <p>
+		<label id="c">Confirm Password</label> &nbsp;
+		<input type="password" id="cpassword" class="input_style"/>
+		&nbsp;&nbsp;&nbsp;<label id="cpswd_msg" class="err_msg"></label>
+	     </p>
+	     <p><button type="submit" class="submit-btn">
+           Submit</button></p>
+
+    </form>
+</div>
+<div class="space"></div>
+<script src="signup.js"></script>
+
+</body>
+</html>

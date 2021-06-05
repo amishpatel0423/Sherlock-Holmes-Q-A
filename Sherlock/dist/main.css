@@ -1,0 +1,274 @@
+body{
+    background-color: #e6ccb2;
+    font-family: Arvo;
+    background-image: url("https://www.wallpapertip.com/wmimgs/33-337904_782847-title-tv-show-sherlock-sherlock-holmes-wallpaper.jpg" );
+    background-position: center;
+}
+
+.container{
+    
+    margin-top: 150px;
+    border: 2px black solid;
+    margin-left: 320px;
+    margin-right: 300px;
+    font-family: Arvo;
+    border-radius: 25px;
+    background-color:#e6ccb2  ;
+    opacity: 0.9;
+    
+}
+
+/* .container,background-color{
+    opacity: 0.8;
+} */
+
+table{
+    padding: 100px;
+}
+button{
+    padding: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: -150px;
+    height: 50px;
+    width: 30%;
+    background-color: brown;
+    color:white;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    margin-right: px;
+   
+}
+
+button:hover{
+    background-color: white;
+    color: brown;
+}
+
+.text{
+   margin-left:10% ;
+   margin-right:5% ;
+   margin-top: 5%;
+   font-size: 20px;
+}
+
+.sherlock{
+    width: 50px;
+    height: 50px;
+}
+
+td{
+    padding-right: 100px;
+    padding-bottom: 20px;
+   
+}
+
+.space{
+    margin-bottom: 100px;
+}
+
+.container-2{
+    margin-top: 100px;
+    border: 2px black solid;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 25px;
+    background-color:#e6ccb2  ;
+    opacity: 0.9;
+}
+
+.text-2{
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-top:40px;
+}
+
+.container-3{
+   
+        margin-top: 100px;
+        border: 2px black solid;
+        margin-left: 300px;
+        margin-right: 300px;
+        border-radius: 25px;
+        background-color:#e6ccb2  ;
+        opacity: 0.9;
+    
+}
+
+.text-3{
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-top:40px;
+}
+
+textarea{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+img{
+    margin-right: 50px;
+}
+
+input{
+    border-radius: 10px;
+}
+
+.login-buttons{
+    margin-right: 100px;
+    margin-left: -25%;
+}
+
+.container-4{
+    background-color: #e6ccb2 ;
+    opacity: 0.9;
+    padding: 15px;
+    width: 70%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left:400px;
+    margin-right: 400px;
+}
+
+.cover-image{
+    background-image: url(/public_html/Sherlock/dist/cover.jpg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 250px;
+}
+
+/* .profile-picture{
+   
+     height: 100px;
+    width: 100px; 
+    } 
+
+*/
+
+.floatdown {
+    position:relative;
+    bottom: 50px;
+    left: 10px;
+ 
+   
+}
+
+.profile{
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background:#e6ccb2;
+    z-index: 1;
+}
+
+
+
+.user-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+a{
+    /* color:white;
+    text-decoration: none;
+
+
+a:hover{
+    color:red;
+    background-color:white;
+} */
+
+text-decoration: none;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+
+.container-5{
+    
+    background-color: #e6ccb2 ;
+    opacity: 0.9;
+    padding: 15px;
+    width: 50%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left:400px;
+    margin-right: 750px;
+   
+}
+
+.Qlist-pic{
+width: 100%;
+position: relative;
+margin-right: 0;
+display: block;
+
+}
+
+.postq{
+position: relative;
+width: 100%;
+margin-left: 0;
+
+
+}
+
+
+.question{
+   
+    border: 1px grey solid;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.upvote{
+    width: 20%;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+}
+
+.upvote-number{
+padding: 10px;
+}
+
+.answered{
+    background-color: grey;
+}
+
+.answers{
+    margin:auto;
+   margin-bottom: 100px;
+    margin: 1% 10%;
+    padding: 10px;
+}
+
+.button-list{
+    margin-top: 3%;
+}
+
+.bio{
+   
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+}
+
+i{
+    padding: 10px;
+}
